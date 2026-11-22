@@ -1,0 +1,9 @@
+#EXTM3U
+#EXTINF:-1 group-title="Filmes Demo",Filme Demo - Aurora
+https://neemyas.github.io/-nemostm-demo-roku/filme_demo_aurora.mp4
+#EXTINF:-1 group-title="Filmes Demo",Filme Demo - Oceano
+https://neemyas.github.io/-nemostm-demo-roku/filme_demo_oceano.mp4
+#EXTINF:-1 group-title="Séries Demo",Laboratório - Episódio 01
+https://neemyas.github.io/-nemostm-demo-roku/serie_laboratorio_ep01.mp4
+#EXTINF:-1 group-title="Séries Demo",Laboratório - Episódio 02
+https://neemyas.github.io/-nemostm-demo-roku/serie_laboratorio_ep02.mp4
