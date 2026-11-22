@@ -1,11 +1,39 @@
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>NemoSTM Demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NemoSTM - Demonstração</title>
+  <style>
+    body { background: #11091f; color: white; font-family: Arial, sans-serif; padding: 24px; }
+    h1 { color: #c084fc; }
+    .videos { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px; }
+    video { width: 100%; border-radius: 12px; }
+    .card { background: #25143d; padding: 16px; border-radius: 14px; }
+  </style>
 </head>
 <body>
   <h1>NemoSTM - Conteúdo de Demonstração</h1>
-  <p>Ambiente de testes do aplicativo NemoSTM Roku.</p>
+  <p>Vídeos originais para testes de reprodução no Roku.</p>
+  <div class="videos">
+    <div class="card">
+      <h3>Filme Demo - Aurora</h3>
+      <video controls src="filme_demo_aurora.mp4"></video>
+    </div>
+    <div class="card">
+      <h3>Filme Demo - Oceano</h3>
+      <video controls src="filme_demo_oceano.mp4"></video>
+    </div>
+    <div class="card">
+      <h3>Laboratório - Episódio 01</h3>
+      <video controls src="serie_laboratorio_ep01.mp4"></video>
+    </div>
+    <div class="card">
+      <h3>Laboratório - Episódio 02</h3>
+      <video controls src="serie_laboratorio_ep02.mp4"></video>
+    </div>
+  </div>
 </body>
 </html>
+
